@@ -1,3 +1,5 @@
 .bundle
 coverage
 pkg
+.rvmrc
+.bundle
