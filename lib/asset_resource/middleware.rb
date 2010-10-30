@@ -1,6 +1,7 @@
 require "asset_resource"
 
-class AssetResource::Middleware
+module AssetResource
+class Middleware
 
   attr_reader :app, :options
 
@@ -102,4 +103,5 @@ private ######################################################################
     translators[type.to_sym]
   end
 
+end
 end
