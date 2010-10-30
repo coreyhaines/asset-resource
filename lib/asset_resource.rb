@@ -1,7 +1,3 @@
-module AssetResource
-  VERSION = "0.3.1"
-end
-
 if defined?(Rails)
   require "asset_resource/framework/rails#{Rails::VERSION::MAJOR}"
 end
